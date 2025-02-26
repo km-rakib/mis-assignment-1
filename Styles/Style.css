@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(253, 230, 230);
+  padding-left: 20px;
+}
+.nav-items{
+  display: flex;
+  text-decoration: none;
+  background-color: rgb(253, 230, 230);
+  justify-content: center;
+}
+ul>li{
+
+  list-style: none;
+  padding: 15px;
+  border-right: 1px solid white;
+}
+ul>li>a{
+  text-decoration: none;
+  color: black;
+}
+.active{
+  background-color: rgb(255, 148, 148);
+}
